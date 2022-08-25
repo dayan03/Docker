@@ -88,5 +88,6 @@ Pasos de instalación manual para versiones anteriores de WSL | Microsoft Docs
 
 Paso 4: Descarga del paquete de actualización del kernel de Linux
 Descargue la versión más reciente:
-•	Paquete de actualización del kernel de Linux en WSL 2 para máquinas x64
+•	Paquete de actualización del kernel de Linux en WSL 2 para máquinas x64 
+
 
