@@ -48,3 +48,45 @@ Esta el contenedor Windows es igual a docker comparte el kernel.
 
 # 6
 
+Prerrequisitos
+Antes de instalar el back-end de Docker Desktop WSL 2, debe completar los pasos siguientes:
+1.	Instale Windows 10, versión 1903 o superior o Windows 11.
+2.	Habilite la característica WSL 2 en Windows. Para obtener instrucciones detalladas, consulte la documentación de Microsoft.
+3.	Descargue e instale el paquete de actualización del kernel de Linux
+
+
+7, 8  y 9
+# INSTALACION DE DOCKER
+ 
+ Descargar  el instalador de docker desktop para Windows 10
+
+ ![imagen 7](imagenes/docker1.png)
+
+ Dejar las dos pestañas y  darle en ok
+
+![imagen 8](imagenes/docker2.png)
+
+ Descargando los paquetes necesarios para instalar en nuestro sistema
+
+ ![imagen 9](imagenes/docker3.png)
+
+Cerrar y reiniciar
+
+![imagen 10](imagenes/docker4.png)
+
+Esta ventana emergente  salen el siguiente link de color azul en donde contendrá los siguientes pasos a seguir
+Por que nosotros al estar en Windows debemos configurar el kernel de Linux para poder trabajar sobre esa virtualizacion
+
+![imagen 11](imagenes/docker5.png)
+
+Este es el link para poder realizar el paso 4 donde se descarga el paquete de kernel linux 
+
+Pasos de instalación manual para versiones anteriores de WSL | Microsoft Docs
+* [pagina de descarga de kernel][1_0]
+[1_0]:https://docs.microsoft.com/en-us/windows/wsl/install-manual
+
+
+Paso 4: Descarga del paquete de actualización del kernel de Linux
+Descargue la versión más reciente:
+•	Paquete de actualización del kernel de Linux en WSL 2 para máquinas x64
+
