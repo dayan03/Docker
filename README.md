@@ -83,6 +83,7 @@ Este es el link para poder realizar el paso 4 donde se descarga el paquete de ke
 
 Pasos de instalación manual para versiones anteriores de WSL | Microsoft Docs
 * [pagina de descarga de kernel][1_0]
+
 [1_0]:https://docs.microsoft.com/en-us/windows/wsl/install-manual
 
 
