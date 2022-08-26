@@ -172,9 +172,10 @@ para instalar pgadmin4  para poder tomar lo de las contraseña en la base de dat
 
 y darle a esta pagina de dockerhub 
 
-* [comando de pgadmin][1_0]
+* [comando de pgadmin][1_1]
 
-[1_0]:https://hub.docker.com/r/dpage/pgadmin4/ 
+[1_1]:https://hub.docker.com/r/dpage/pgadmin4/ 
+
 
  aquí esta el comando a copiar 
 
