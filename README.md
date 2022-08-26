@@ -91,4 +91,102 @@ Paso 4: Descarga del paquete de actualización del kernel de Linux
 Descargue la versión más reciente:
 •	Paquete de actualización del kernel de Linux en WSL 2 para máquinas x64 
 
+![imagen 12](imagenes/docker6.png)
+
+![imagen 13](imagenes/docker7.png)
+
+Luego  abrimos Windows power Shell
+Este comando se ejecuta para establecer a wsl 2 como  versión predeterminada
+
+![imagen 14](imagenes/docker8.png)
+
+Luego podemos instalar una versión Linux de Ubuntu,pero en el primer laboratorio 1 de wls2 ya se instalo, en donde se loguea y se inicia sesión  y pues los demás  pasos en la pagina web ,no son necesarios de implementar por que estan deacuerdo a la distribución  de Linux que que  descargamos, en este caso seria Ubuntu 20.04
+Se instala docker  dándole en el botón restart
+
+![imagen 15](imagenes/docker9.png)
+
+En este se encuentra un primer comando por que no tenemos ningún contenedor que se inicialice
+
+![imagen 16](imagenes/docker10.png)
+
+Entonces como ya se instalo,  para poder ejecutarlo podemos abrir powershell
+Damos el siguiente comando: docker
+Donde saldrán los siguientes comandos y los investigados en el cuadro anterior
+
+![imagen 17](imagenes/docker11.png)
+
+Como podemos observar al principio como no tenemos nada en el contenedor, no sale ninguna imagen al poner el comando docker ps –a, pero después que ponemos el comando  sugerido por docker ,podemos mirar que sale en la parte de imágenes…con docker images
+Y se puede visualizar el contenerdor
+
+![imagen 18](imagenes/docker12.png)
+
+Y sabemos que corre al poner en la barra de navegación localhost:80…donde sale una pagina de docker que es la siguiente
+
+
+![imagen 19](imagenes/docker13.png)
+
+Luego nos dirigimos a docker hub para poder  ejecutar este comando
+Docker pull hello-world,el cual nos dice que esta corriendo normalmente
+
+por lo tanto aqui se ejecuta y se envia el siguiente mensaje
+
+![imagen 20](imagenes/docker14.png)
+
+![imagen 21](imagenes/docker15.png)
+
+Al traducir podemos darnos cuenta, que nos explica el proceso de comunicación  que tiene internamente el docker 
+
+![imagen 22](imagenes/docker16.png)
+
+acontinuacion tenemos otros ejemplos  de instalación de imagenes
+docker pull postgres
+
+![imagen 23](imagenes/docker17.png)
+
+docker pull python
+
+![imagen 24](imagenes/docker18.png)
+
+![imagen 25](imagenes/docker19.png)
+
+![imagen 26](imagenes/docker20.png)
+
+![imagen 27](imagenes/docker21.png)
+
+# 10.
+luego de instalar docker en Windows podemos poner el siguiente comando  en powershell,para podemos descargar la versión de nuestro docker compose
+
+docker-compose  --version 
+
+![imagen 28](imagenes/ima1.png)
+
+Poner docker-compose nos da los comando para poder realizar el proceso de funcionamiento
+
+------
+
+para instalar servicios en docker debemos tener encuenta las siguientes
+
+para instalar pgadmin4  para poder tomar lo de las contraseña en la base de datos
+
+![imagen 29](imagenes/ima2.png)
+
+y darle a esta pagina de dockerhub 
+
+* [comando de pgadmin][1_0]
+
+[1_0]:https://hub.docker.com/r/dpage/pgadmin4/ 
+
+ aquí esta el comando a copiar 
+
+![imagen 30](imagenes/ima3.png)
+
+docker compose en visual studio code
+
+![imagen 31](imagenes/ima4.png)
+
+ 
+
+
+
+
 
