@@ -185,7 +185,39 @@ docker compose en visual studio code
 
 ![imagen 31](imagenes/ima4.png)
 
- 
+ pero antes hay que darle docker start  pgadmin.para que nos aparezca la parte para hacer el login en pgadmin
+
+![imagen 32](imagenes/ima5.png)
+
+![imagen 33](imagenes/ima6.png)
+
+configura la contraseña  de postgres
+
+![imagen 34](imagenes/ima7.png)
+
+
+ se observa con este comando 
+ * docker inspect (ID de contenedor)
+  permite ver el ip de contenedor de postgres
+
+![imagen 35](imagenes/ima8.png)
+
+![imagen 36](imagenes/ima9.png)!
+
+
+luego  de acceder a postgres debemos crear un servidor en este caso le llamaremos docker y como usuario postgres
+
+![imagen 37](imagenes/ima10.png)
+
+![imagen 38](imagenes/ima11.png)
+
+comienza a correr
+
+![imagen 39](imagenes/ima12.png)
+
+
+
+
 
 
 
