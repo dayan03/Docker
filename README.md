@@ -39,8 +39,39 @@ Esta el contenedor Windows es igual a docker comparte el kernel.
  Por ultimo el contenedor Hiper-V  son maquinas optimizadas  que contienen una copia del kernel de Windows,en este cada contenedor tiene su propio kernel
 
 # 4
+## FLUJO DE TRABAJO PARA PODER DESPLEGAR APLICACIONES EN DOCKER
+ 
+El flujo de trabajo se centra en el bucle interno  y es desarrollado por el equipo de trabajo
+
+Una aplicación tiene su propios servicios asi como bibliotecas, para poder luego ejecutar la aplicación docker como se puede apreciar en la siguiente figura.
 
   ![imagen 5](imagenes/img5.png)
+Flujo de trabajo de bucle interno para el desarrollo de  la aplicaciones de contenedor docker
+
+Para estos se tiene encuentra la aplicación visual studio code 2022,que puede ayudar a controlar  los pasos de forma automática.
+Para eso debemos dar click en dockerfile y en el archivo docker.compose.yml a los proyectos de la configuración de la aplicación,con este se compila aplicación de docker  y se puede trabajar con varios contenedores y aumento  la rapidez de desarrollo
+ También es importante saber que hace docker en segundo plano,por consiguiente veremos los siguientes pasos en este  workflow:
+
+Paso 1: empezando a programar
+La creación de un aplicación en docker es igual cuando se realiza una aplicación normal,solo que los servicios se ejecutarían en el docker  en un entorno local que puede ser una maquina virtual Linux o en el contenedor de Windows
+Para esto se debe hacer una Selección de la carga de trabajo Desarrollo web y ASP.NET durante la instalación de Visual Studio 2022,pero antes se debe hacer una prueba de funcionalidade del  docker
+
+Paso 2:
+Creación de dockerfile con una imagen
+ En esta parte se necesita un docker file  para cada imagen de base existente de .NET  indispensable para cada servicio,para esto se debe habilitar la compatibilidad con docker
+
+Paso 3: creación personalizada de imagen docker  e insetar la aplicación o servicios.
+Se debe insertar imagen  e implementar en el contenedor docker mediante la CLI  de docker o docker file,utilizando el comando de docker build
+ Se puede visualizar todas las imágenes de docker montadas con el comando docker images
+
+Paso 4: definir los servicios en docker-compose.ylm al compilar una aplicación en varios contenedores
+
+El docker compose permite  definir los conjuntos de servicios y las relaciones de dependencia y la configuracion de ejecución,este contiene los datos de configuración para cada contenedor
+
+Paso 5: ejecutar y compilar la aplicación
+Se ejecuta el contenedor mediante el host local del docker,aunque si tiene varios servicios se puede implementar de forma compuesta medienate al comando  CLI  docker –compose –up o con visual studio 
+
+
 
 # 5
 
