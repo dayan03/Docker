@@ -197,7 +197,9 @@ configura la contraseña  de postgres
 
 
  se observa con este comando 
- * docker inspect (ID de contenedor)
+ * docker inspect (ID de contenedor) ejemploo:
+  docker inspect fea5e3b6c4790a1d591da12dc65cf775924f378c714964d5f42296b6c3733adf
+ 
   permite ver el ip de contenedor de postgres
 
 ![imagen 35](imagenes/ima8.png)
@@ -209,11 +211,14 @@ luego  de acceder a postgres debemos crear un servidor en este caso le llamaremo
 
 ![imagen 37](imagenes/ima10.png)
 
+
 ![imagen 38](imagenes/ima11.png)
 
-comienza a correr
+comienza a correr luego de poner la contraseña que en este caso seria  1234,como se puso al poner el comando
 
 ![imagen 39](imagenes/ima12.png)
+
+
 
 
 
