@@ -46,6 +46,8 @@ El flujo de trabajo se centra en el bucle interno  y es desarrollado por el equi
 Una aplicación tiene su propios servicios asi como bibliotecas, para poder luego ejecutar la aplicación docker como se puede apreciar en la siguiente figura.
 
   ![imagen 5](imagenes/img5.png)
+
+
 Flujo de trabajo de bucle interno para el desarrollo de  la aplicaciones de contenedor docker
 
 Para estos se tiene encuentra la aplicación visual studio code 2022,que puede ayudar a controlar  los pasos de forma automática.
