@@ -211,6 +211,8 @@ luego  de acceder a postgres debemos crear un servidor en este caso le llamaremo
 
 ![imagen 37](imagenes/ima10.png)
 
+se debe de poner  la ipadress que se me mira al momento que  ejecutar el comando docker inspect
+
 
 ![imagen 38](imagenes/ima11.png)
 
